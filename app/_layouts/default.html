@@ -6,12 +6,12 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- build:css({app,.tmp}) /css/main.css -->
+        <!-- build:css({app,.tmp}) {{ site.baseurl }}/css/main.css -->
         <!-- Syntax highlighting CSS -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+        <link rel="stylesheet" href="jekyll-test/css/main.css">
         <!-- endbuild -->
 
     </head>
@@ -41,7 +41,7 @@
           </div>
         </div>
 
-    <!-- build:js({app,.tmp}) /js/scripts.js -->
+    <!-- build:js({app,.tmp}) {{ site.baseurl }}/js/scripts.js -->
     <script src="{{ site.baseurl }}/js/main.js"></script>
     <!-- endbuild -->
     </body>
